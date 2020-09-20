@@ -3,7 +3,34 @@
 	<meta charset="utf-8">
 	<title>HELLO WORLD WIDGET</title>
 </head>
+<style>
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background-color: black;
+	text-align: center;
+	height: 100%;
+}
+.preview {
+	max-width: 100%;
+	max-height: 100%;
+}
+.full_table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.full_cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+</style>
 <body>
-	<a href="HELLO_WORLD.kwgt">download</a>
+	<div class="full_table">
+		<a class="full_cell" href="HELLO_WORLD.kwgt"><img class="preview" src="HELLO_WORLD/preset_thumb_portrait.jpg"></a>
+	</div>
 </body>
 </html>
